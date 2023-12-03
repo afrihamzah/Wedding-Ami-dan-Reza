@@ -49,17 +49,8 @@ body {
 }
 
 .frame-tl,
-.frame-tr,
-.frame-bl {
-  width: 350px;
-}
-
-.frame-br {
-  width: 230px;
-}
-
 .frame-tr {
-  top: 0;
+  width: 350px;
 }
 
 .frame-bm {
@@ -369,13 +360,8 @@ section {
   }
 
   .frame-tl,
-  .frame-tr,
-  .frame-bl {
+  .frame-tr {
     width: 250px;
-  }
-
-  .frame-br {
-    width: 150px;
   }
 
   .frame-bm {
