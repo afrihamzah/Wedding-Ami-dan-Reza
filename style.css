@@ -22,7 +22,7 @@ body {
 }
 
 .hero h1 {
-  font-family: "Ephesis", cursive;
+  font-family: serif;
   font-size: 6rem;
   text-shadow: var(--shadow);
   color: var(--pink);
@@ -103,18 +103,18 @@ body {
 
 .nama-mempelai h1 {
   font-size: 4rem;
-  font-family: "Ephesis", cursive;
-  font-weight: bold;
+  font-family: serif;
   color: var(--pink);
   text-shadow: var(--shadow);
 }
 
 .nama-mempelai h2 {
-  font-family: "Ephesis", cursive;
-  font-size: 3rem;
+  font-family: serif;
+  font-size: 2.5rem;
   margin-bottom: 2rem;
   margin-top: 1.5rem;
   color: var(--font);
+  font-style: italic;
 }
 
 .nama-mempelai p {
@@ -136,9 +136,8 @@ body {
 .info h2,
 .thanks h1 {
   color: var(--pink);
-  font-family: "Ephesis", cursive;
+  font-family: serif;
   font-size: 4rem;
-  font-weight: bold;
   text-shadow: var(--shadow);
 }
 
