@@ -380,3 +380,10 @@ section {
     padding-right: 20px;
   }
 }
+
+/* 343 */
+@media (max-width: 343px) {
+  html {
+    font-size: 45%;
+  }
+}
