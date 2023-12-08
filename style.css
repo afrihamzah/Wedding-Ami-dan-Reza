@@ -93,7 +93,8 @@ body {
 .nama-mempelai p,
 .info p,
 .rsvp p,
-.thanks p {
+.thanks p,
+.gifts p {
   font-size: 1.3rem;
   margin-bottom: 3rem;
   margin-left: 1.5rem;
@@ -125,18 +126,22 @@ body {
 .rsvp,
 .quotes,
 .thanks,
-.gallery {
+.gallery,
+.gifts {
   background-image: url(img/bgpink.jpeg);
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
   position: relative;
   min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .info h2,
 .thanks h1,
-.gallery h2 {
+.gallery h2,
+.gifts h2 {
   color: var(--pink);
   font-family: serif;
   font-size: 4rem;
@@ -220,16 +225,14 @@ body {
   color: var(--pink);
 }
 
-.gallery {
-  position: relative;
-  display: flex;
-  align-items: center;
+.gifts img {
+  width: 130px;
+  margin-bottom: -30px;
+  margin-bottom: 20px;
 }
 
-.thanks {
-  position: relative;
-  display: flex;
-  align-items: center;
+.gifts p {
+  margin-bottom: 0;
 }
 
 .thanks h1 {
@@ -337,7 +340,8 @@ section {
   .info .card-header,
   .rsvp p,
   .quotes p,
-  .thanks p {
+  .thanks p,
+  .gifts p {
     font-size: 2.2rem;
   }
 
